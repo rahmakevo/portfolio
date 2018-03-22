@@ -10,32 +10,31 @@
   </head>
   <body>
     <!-- top navigation -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-          <a href="#" class="navbar-brand">Developer</a>
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarDev" aria-controls="navbarDev" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarDev">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Education</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Achievements</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Projects</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Developer</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarDev" aria-controls="navbarDev" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDev">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Projects</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-
-      <!-- Image Slider -->
+      </div>
+    </nav>
+    <!-- Image Slider -->
     <div class="carousel slide" id="demo" data-ride="carousel">
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -43,7 +42,6 @@
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
       </ul>
-
       <!-- The Slideshows -->
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -68,7 +66,6 @@
           </div>
         </div>
       </div>
-
       <!-- Left and Right controls -->
       <a href="#demo" class="carousel-control-prev" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -76,6 +73,38 @@
       <a href="#demo" class="carousel-control-next" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
+    </div>
+
+    <!-- About Section -->
+    <div class="container-fluid" id="about">
+      <div class="text-center">
+        <h3>ABOUT ME</h3>
+        <hr class="my-4">
+        <p>A small introduction about my self</p>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <h5>Kevin Wafula Siundu</h5>
+          <p>Web and Mobile Developer</p>
+          <p>
+            I am a Web and Mobile Developer from Kenya. I am an enthusiastic and
+            hardworking self established developer. I have had experience in developing
+            various applications for 2 years now. Prior to which I have done a couple
+            of certificates to back me up.
+          </p>
+          <p>
+            My Passion for developing applications began when I finished High School
+            and ever since I have been growing in my skills. I believe growth and
+            co-operation with other developers are key factors that make developers
+            stand out in the field.
+          </p>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="assets/images/avatar.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

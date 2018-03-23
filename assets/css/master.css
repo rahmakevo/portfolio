@@ -83,3 +83,14 @@ font-family: fantasy;
 {
 margin-top: 20px;
 }
+footer
+{
+  height: 0px;
+  width: 100%;
+  background-color: #fafafa;
+  margin-top: 10px;
+}
+#nav h5
+{
+  margin: 20px;
+}

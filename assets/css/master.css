@@ -1,16 +1,23 @@
 body, html {
   height: 100%;
   margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
-.bg {
+
+.bg1, .bg2, .bg3{
   position: relative;
   opacity: 0.65;
-  background-image: url("../gallery/background.jpg");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+.bg1 {
+  background-image: url("../gallery/background.jpg");
+  height: 100%;
+}
+
 .caption {
   position: absolute;
   left: 0;
@@ -25,4 +32,88 @@ body, html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+.container-fluid #about1 {
+  margin-top: 20px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: serif;
+  font-weight: 1.5em;
+  color: #111;
+}
+#about p {
+  letter-spacing: 2.5px;
+  font-family: Courier;
+  font-size: 22px;
+}
+.row #row1 {
+  width: auto;
+}
+.row h5 {
+  text-align: center;
+  margin-top: 45px;
+  text-transform: uppercase;
+  color: #111;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.row #par1 {
+  font-family: serif;
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+}
+.row #row2 {
+  font-family: cursive;
+  letter-spacing: 2.5px;
+  font-size: 18px;
+  position: inherit;
+}
+.row p {
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.row img {
+  height: 400px;
+  width: auto;
+  margin: 7px;
+}
+#padding {
+  background-color: #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div #edu {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 1em;
+  font-family: monospace;
+}
+div #edu2 {
+  letter-spacing: 2px;
+  font-family: cursive;
+  font-size: 22px;
+}
+div #edu3 {
+  margin-bottom: 20px;
+}
+div #edu3 p {
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+div #proj1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: cursive;
+}
+div #proj2 {
+  letter-spacing: 2px;
+  font-family: fantasy;
+  font-size: 22px;
 }

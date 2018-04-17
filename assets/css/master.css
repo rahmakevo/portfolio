@@ -125,5 +125,152 @@ div #html p {
 section p {
   letter-spacing: 2px;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+}
+div #image_about {
+  border-radius: 50%;
+  height: 300px;
+}
+div .image {
+  height: 200px;
+}
+#web_responsive #web1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: cursive;
+}
+#web_responsive .card {
+  margin: 7px;
+}
+#container1 {
+  width: 75%;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+}
+div #skills1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: cursive;
+}
+div #skills2 {
+  letter-spacing: 2px;
+  font-family: cursive;
+  font-size: 22px;
+}
+div #skill1 {
+  text-align: center;
+}
+div #skill1 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+div #skill2 {
+  text-align: center;
+}
+div #skill2 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container2 {
+  width: 75%;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+}
+div #skill3 {
+  text-align: center;
+}
+div #skill3 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container3 {
+  width: 75%;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+}
+div #skill4 {
+  text-align: center;
+}
+div #skill4 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container4 {
+  width: 75%;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+}
+div #skill5 {
+  text-align: center;
+}
+div #skill5 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container5 {
+  width: 75%;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+}
+div #skill6 {
+  text-align: center;
+}
+div #skill6 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container6 {
+  width: 75%;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+}
+div #skill7 {
+  text-align: center;
+}
+div #skill7 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container7 {
+  width: 75%;
+  height: 8px;
+  position: relative;
+  margin-left: 10px;
+}
+div #skill8 {
+  text-align: center;
+}
+div #skill8 p {
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#container8 {
+  width: 75%;
+  height: 8px;
+  position: relative;
+  margin-left: 10px;
 }

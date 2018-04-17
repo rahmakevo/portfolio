@@ -13,6 +13,8 @@
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/master.js" charset="utf-8"></script>
+  <script src="assets/js/progressbar.min.js" charset="utf-8"></script>
+  <script src="assets/js/progressbar.js" charset="utf-8"></script>
   <title>Developer</title>
 </head>
 
@@ -44,10 +46,10 @@
     </div>
   </nav>
 
-  <!-- Image Parallax -->
+  <!-- Text Parallax -->
   <div class="bg1">
     <div class="caption">
-      <span class="border">I AM AN ANDROID AND WEB DEVELOPER</span>
+      <!-- <span class="border">I AM AN ANDROID AND WEB DEVELOPER</span> -->
     </div>
   </div>
 
@@ -73,7 +75,7 @@
 
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div class="card">
-          <img src="assets/images/avatar.jpg" alt="">
+          <img src="assets/images/avatar.jpg" alt="" id="image_about">
         </div>
       </div>
     </div>
@@ -120,12 +122,231 @@
   <div class="container-fluid" id="project">
     <h5 class="text-center" id="proj1">portfolio</h5>
     <hr class="my-4">
-    <p class="text-center" id="proj2">I can say I am quite good at</p>
-    <hr class="my-4">
+    <p class="text-center" id="proj2">I point my achievements as :</p>
 
-    <section>
-      <p class="text-center">1. WEB RESPONSIVE PROJECTS</p>
+    <section id="web_responsive">
+      <p class="text-center" id="web1">1. WEB RESPONSIVE PROJECTS</p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/architect.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Architect Web Responsive</p>
+              <a href="https://rahmakevo.github.io/architect/" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/blog.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Simple Blog Web Responsive</p>
+              <a href="https://rahmakevo.github.io/blog/" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/bootstrap4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Bootstrap4 Web Responsive</p>
+              <a href="https://rahmakevo.github.io/bootstrap_4/" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <hr class="my-4">
+    <section id="web_responsive">
+      <p class="text-center" id="web1">2. ANDROID NATIVE PROJECTS</p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/moviemax.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Movie API request APP</p>
+              <a href="https://appetize.io/app/3e8412cdj34uere7d6x9qdy6dw?device=nexus5&scale=75&orientation=portrait&osVersion=7.1" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/betshwari.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Android Soccer Betting APP</p>
+              <a href="https://play.google.com/store/apps/details?id=com.betting.siundu344.betshwari" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/watzpopping.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Android Social Chat APP</p>
+              <a href="https://play.google.com/store/apps/details?id=com.app.islamtodayp" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="my-4">
+    <section id="web_responsive">
+      <p class="text-center" id="web1">3. JAVASCRIPT AND JAVA LOGIC WEB PROJECTS</p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/pigdice.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">PigDice Game Web App</p>
+              <a href="https://rahmakevo.github.io/pigDice/" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/pingpong.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">PingPong Game Web App</p>
+              <a href="https://rahmakevo.github.io/pingpong/" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/hangman.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Java CommandLine App</p>
+              <a href="https://github.com/rahmakevo/hangmanip1" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="my-4">
+    <section id="web_responsive">
+      <p class="text-center" id="web1">4. WEB AND MOBILE FRAMEWORKS PROJECTS</p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/QandA.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Ember CLI Framework</p>
+              <a href="https://review-question-answer.firebaseapp.com/" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/pingpong.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Ionic Framework</p>
+              <a href="https://github.com/rahmakevo/Ionic_Weather_API" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <img class="image" src="assets/images/hangman.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title">Angular2 Framework</p>
+              <a href="https://github.com/rahmakevo/js-Angular2-mealtracker" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="my-4">
+  </div>
+
+  <div class="skills">
+    <h5 class="text-center" id="skills1">SKILLS & EXPERTISE</h5>
+    <hr class="my-4">
+    <p class="text-center" id="skills2">I can say I am quite good at :</p>
+
+    <div class="row" id="skill1">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>Web Front - End :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container1">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill2">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>Web Back - End :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container2">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill3">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>Android Front - End :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container3">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill4">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>Android Back - End :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container4">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill5">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>Angular 2 & 4 :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container5">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill6">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>NoSQL Database :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container6">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill7">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>SQL Database :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container7">
+
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skill8">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+        <p>Ionic Framework :</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-10">
+        <div id="container8">
+
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

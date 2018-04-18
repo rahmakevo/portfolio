@@ -274,3 +274,15 @@ div #skill8 p {
   position: relative;
   margin-left: 10px;
 }
+footer {
+  background: #ddd;
+  padding: 40px;
+  height: 100px;
+}
+footer h6 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 25px;
+  margin-top: 5px;
+}

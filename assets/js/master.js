@@ -116,7 +116,7 @@ $(document).ready(function() {
     from: {color: '#FFEA82'},
     to: {color: '#ED6A5A'},
     step: (state, bar4) => {
-      bar4.setText(Math.round(bar4.value() * 80) + ' %');
+      bar4.setText(Math.round(bar4.value() * 70) + ' %');
     }
   });
 
